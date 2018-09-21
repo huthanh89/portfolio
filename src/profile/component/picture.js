@@ -11,7 +11,7 @@ import React from 'react';
 class Picture extends React.Component {
   render() {
     return (
-      <div id="profile-picture" class="card">
+      <div id="profile-picture" class="card mx-auto">
         <div class="card-header bg-white">
           <i class="fa fa-map-marker-alt fa-fw"></i>
           <span>

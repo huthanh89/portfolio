@@ -139,7 +139,7 @@ class Description extends React.Component {
                 San Jose State University
               </span>
             </h5>
-            <h6 class="card-subtitle mb-2 text-muted">Fall 2010- Fall 2014</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Fall 2010 - Fall 2014</h6>
             <p class="card-text">Bachelor of Science in Computer Engineering</p>
             <p class="card-text">
               <b>

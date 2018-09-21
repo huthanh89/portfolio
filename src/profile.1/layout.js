@@ -2,45 +2,33 @@
 // Imports
 //-----------------------------------------------------------------------------//
 
-import React    from 'react';
-import ReactDOM from 'react-dom';
-import Profile  from './profile/layout.js';
-import Contact  from './profile.1/layout.js';
+import React       from 'react';
+import Picture     from './component/picture'
+import Description from './component/description'
 
 //-----------------------------------------------------------------------------//
 // Components
 //-----------------------------------------------------------------------------//
 
-function ViewManager(props) {
-  if (props.home) {
-    return (
-      <Profile/>
-    );
-  }else{
-    return (
-      <Contact/>
-    );
-  }
-}
-
-class MainComponent extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {showHome: true}
-  }
-
+class Layout extends React.Component {
   render() {
     return (
-      <ViewManager home={this.state.showHome}/>
+      <div class='row'>
+        <div class='col-md-5'>
+          <Picture/>
+        </div>
+        <div class='col-md-7'>
+          <Description/>
+        </div>
+      </div>
     );
   }
 }
 
 //-----------------------------------------------------------------------------//
-// Render
+// Exports
 //-----------------------------------------------------------------------------//
 
-ReactDOM.render(<MainComponent/>, document.querySelector('#root'));
+export default Layout;
 
 //-----------------------------------------------------------------------------//
