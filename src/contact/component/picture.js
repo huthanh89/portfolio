@@ -28,13 +28,13 @@ class Picture extends React.Component {
         
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="image/profile1.jpg" alt="First slide"/>
+              <img class="d-block w-100" src="image/profile3.jpg" alt="First slide"/>
             </div>
             <div class="carousel-item">
               <img class="d-block w-100" src="image/profile2.jpg" alt="Second slide"/>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="image/profile3.jpg" alt="Third slide"/>
+              <img class="d-block w-100" src="image/profile1.jpg" alt="Third slide"/>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -46,6 +46,7 @@ class Picture extends React.Component {
             <span class="sr-only">Next</span>
           </a>
         </div>
+
         
         <div class="card-body border">
           <h5>Thanh Huynh</h5>

@@ -10,29 +10,10 @@ html
     link(rel='stylesheet', type='text/css', href='css/style.css')
   
   body
-    nav.navbar.navbar-expand-md.navbar-light.border-bottom.bg-white
-      .container
-        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup', aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')
-          span.navbar-toggler-icon
-        
-        #navbarNavAltMarkup.collapse.navbar-collapse
-          ul.nav.navbar-nav.ml-auto
-            li.nav-item.nav-link.active
-              i.fas.fa-folder-open.fa-fw.fa-lg
-              = ' '
-              span Portfolio
-            li.nav-item.nav-link
-              i.fas.fa-file-alt.fa-fw.fa-lg
-              = ' '
-              span Resume
-            li.nav-item.nav-link
-              i.fas.fa-user.fa-fw.fa-lg
-              = ' '
-              span Contact
-
+    #nav
     #main-container.container.bg-white
       main
-        #root
+        #main
 
     footer.footer
       .container
