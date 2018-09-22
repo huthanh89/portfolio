@@ -9,46 +9,69 @@ import Profile  from './profile/layout.js';
 import Contact  from './contact/layout.js';
 
 //-----------------------------------------------------------------------------//
+
+var viewIndex = 0;
+
+function updateViewIndex (index){
+  ReactDOM.render(<Main viewIndex={index}/>, document.querySelector('#main'));
+}
+
+//-----------------------------------------------------------------------------//
 // Components
 //-----------------------------------------------------------------------------//
 
 function ViewManager(props) {
-  if(props.home) {
+  if(props.viewIndex==0) {
     return (
       <Profile/>
     );
-  }else {
+  }else if (props.viewIndex==1) {
+    return (
+      <Contact/>
+    );
+  }
+  else{
     return (
       <Contact/>
     );
   }
 }
 
-function renderContent(){
-  ReactDOM.render(<Main/>, document.querySelector('#root'));
-}
-
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {showHome: false};
-    this.buttonClicked = this.buttonClicked.bind(this);
+    console.log('main constructor', props);
+    this.state = {viewIndex: props.viewIndex};
+  }
+
+  componentWillMount() {
+    //console.log('will mounting', this.props)
+  }
+
+  componentDidMount() {
+   // console.log('mounting', this.props)
   }
   
+  componentWillReceiveProps(){
+  //  console.log('will recieve props', this.props);
+//    this.state.viewIndex = this.props.viewIndex;
+  }
+
+  static getDerivedStateFromProps(props, state){
+    state.viewIndex = props.viewIndex;
+  }
+
   render() {
     return (
       <div>
-        <button onClick={this.buttonClicked}>    
-          my button
-        </button>
-        <ViewManager home={this.state.showHome}/>
+        <ViewManager viewIndex={this.state.viewIndex}/>
       </div>
     );
   }
 
   buttonClicked() {
     this.state.showHome = !this.state.showHome;
-    renderContent();
+    ReactDOM.render(<Main/>, document.querySelector('#main'));
   }
 
 }
@@ -57,7 +80,7 @@ class Main extends React.Component {
 // Render
 //-----------------------------------------------------------------------------//
 
-ReactDOM.render(<Nav/>, document.querySelector('#nav'));
-ReactDOM.render(<Main/>, document.querySelector('#main'));
+ReactDOM.render(<Nav updateView = {updateViewIndex}/>, document.querySelector('#nav'));
+ReactDOM.render(<Main viewIndex = {viewIndex}/>, document.querySelector('#main'));
 
 //-----------------------------------------------------------------------------//
