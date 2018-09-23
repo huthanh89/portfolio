@@ -18,21 +18,12 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <nav class="navbar navbar-expand-md navbar-light border-bottom bg-white">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="nav navbar-nav ml-auto">
-              <li class="nav-item nav-link active" onClick={this.itemClickedPortfolio}><i class="fas fa-folder-open fa-fw fa-lg"></i> <span>Portfolio</span>
-              </li>
-              <li class="nav-item nav-link" onClick={this.itemClickedResume}><i class="fas fa-print fa-fw fa-lg"></i> <span>Resume</span>
-              </li>
-              <li class="nav-item nav-link" onClick={this.itemClickedContact}><i class="fas fa-user fa-fw fa-lg"></i> <span>Contact</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <object data="resume.pdf" type="application/pdf" width="100%" height="100%">
+        <iframe src="resume.pdf" width="100%" height="100%">
+          This browser does not support PDFs. Please download the PDF to view it: <a href="resume.pdf">Download PDF</a>
+        </iframe>
+      </object>
+
     );
   }
 

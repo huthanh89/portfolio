@@ -6,6 +6,7 @@ import React    from 'react';
 import ReactDOM from 'react-dom';
 import Nav      from './nav/layout.js';
 import Profile  from './profile/layout.js';
+import Resume   from './resume/layout.js';
 import Contact  from './contact/layout.js';
 
 //-----------------------------------------------------------------------------//
@@ -27,7 +28,7 @@ function ViewManager(props) {
     );
   }else if (props.viewIndex==1) {
     return (
-      <Contact/>
+      <Resume/>
     );
   }
   else{
@@ -54,7 +55,7 @@ class Main extends React.Component {
   
   componentWillReceiveProps(){
   //  console.log('will recieve props', this.props);
-//    this.state.viewIndex = this.props.viewIndex;
+  //  this.state.viewIndex = this.props.viewIndex;
   }
 
   static getDerivedStateFromProps(props, state){
