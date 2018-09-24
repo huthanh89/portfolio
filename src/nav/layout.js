@@ -26,7 +26,7 @@ class Layout extends React.Component {
     var viewIndex = this.state.viewIndex;
 
     function isActive(itemIndex){
-      return itemIndex == viewIndex? true:false
+      return itemIndex == viewIndex? true:false;
     }
 
     function classAttribute (active){

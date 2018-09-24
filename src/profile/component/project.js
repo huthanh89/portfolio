@@ -25,14 +25,14 @@ class Component extends React.Component {
 
             <div class='row'>
               <div class='col-md-6  mb-2'>  
-                <h5 class="card-title">
+                <h4 class="card-title">
                   <span>
                     MN Rewards
                   </span>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
+                </h4>
+                <h5 class="card-subtitle mb-2 text-muted">
                   Developer, June 2018 - July 2018
-                </h6>
+                </h5>
                 <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
                   View Code Repository
                 </a> 
@@ -57,18 +57,47 @@ class Component extends React.Component {
             <div class="hr"></div>
 
             <div class='row'>
-              <div class='col-md-6 mb-2'>
-                <h5 class="card-title">
-                  <span>
-                    Workout Rank
-                  </span>
-                </h5>
-                <h6 class="card-subtitle mb-2 text-muted">
+              <div class='col-md-12'>
+                <div class="card-title">
+                  <img class="profile-work-logo" src="image/workoutrank_logo.png"></img>
+                    <h4 class="d-inline">
+                      Workout Rank
+                    </h4>
+                </div>
+                <h5 class="card-subtitle mb-2 text-muted">
                   Developer, Apr 2016 - June 2016
-                </h6>
+                </h5>
                 <a href="https://github.com/huthanh89/workoutrank" target="_blank"> 
                   View Code Repository
                 </a>              
+              </div>
+              <div class='col-lg-6'>
+                <div id="carouselExampleIndicators2" class="carousel slide profile-work-corousal" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="d-block w-100" src="image/workoutrank1.jpg" alt="First slide"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="image/workoutrank2.jpg" alt="Third slide"/>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="image/workoutrank3.jpg" alt="Third slide"/>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
               </div>
               <div class='col-md-6'>
                 <p class="card-text">

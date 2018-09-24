@@ -24,13 +24,13 @@ class Component extends React.Component {
               <div class='col-md-12'>
                 <div class="card-title">
                   <img class="profile-work-logo" src="image/neptune_logo.png"></img>
-                  <h5 class="d-inline">
+                  <h4 class="d-inline">
                     Neptune Systems
-                  </h5>
+                  </h4>
                 </div>
-                <h6 class="card-subtitle mb-2 text-muted">
+                <h5 class="card-subtitle mb-2 text-muted">
                   Software Engineer, Feb 2014 - Mar 2018
-                </h6>
+                </h5>
                 <a href="https://www.neptunesystems.com/apex-fusion/" target="_blank"> 
                   View Website
                 </a>
@@ -108,15 +108,15 @@ class Component extends React.Component {
               <div class='col-md-6'>
                 <div class="card-title">
                   <img class="profile-work-logo" src="image/time_service_logo.png"></img>
-                  <h5 class="d-inline">
+                  <h4 class="d-inline">
                     <span>
                       Time Service Inc
                     </span>
-                  </h5>                
+                  </h4>                
                 </div>
-                <h6 class="card-subtitle mb-2 text-muted">
+                <h5 class="card-subtitle mb-2 text-muted">
                   Technician, Dec 2007- Dec 2012
-                </h6>              
+                </h5>              
               </div>
               <div class='col-md-6'>
                 <p class="card-text">
