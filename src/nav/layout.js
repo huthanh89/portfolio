@@ -57,7 +57,7 @@ class Layout extends React.Component {
     // TODO: remove class d-none to show contact list item.
 
     return (
-      <nav class="navbar navbar-expand-md navbar-light border-bottom bg-white">
+      <nav class="navbar navbar-expand-md border-bottom bg-white">
         <div class="container">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <a class="navbar-brand" href="#">

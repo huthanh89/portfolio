@@ -10,7 +10,7 @@ nav{
 
 nav .active{
     border-style:   solid;
-    border-color: rgb(100, 148, 250);
+    border-color:   rgb(52,163,218);
     border-width:   0px 0px 4px 0px;
 }
 
@@ -19,7 +19,7 @@ nav .active{
 }
 
 #main-container{
-    margin-top:     25px;
+    margin-top:     15px;
     padding-top:    25px;
     padding-bottom: 25px;
     border-style:   solid;
