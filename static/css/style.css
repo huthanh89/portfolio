@@ -28,7 +28,10 @@ nav .active{
 
 .jumbotron{
     background-image: url('../image/jumbotron.jpg');
-    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center right; 
+    color:rgb(255, 255, 255);
     box-shadow: 10px 10px 10px rgba(126, 123, 123, 0.671);
 }
 
