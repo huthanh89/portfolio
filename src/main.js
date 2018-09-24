@@ -41,21 +41,8 @@ function ViewManager(props) {
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    console.log('main constructor', props);
-    this.state = {viewIndex: props.viewIndex};
-  }
-
-  componentWillMount() {
-    //console.log('will mounting', this.props)
-  }
-
-  componentDidMount() {
-   // console.log('mounting', this.props)
-  }
-  
-  componentWillReceiveProps(){
-  //  console.log('will recieve props', this.props);
-  //  this.state.viewIndex = this.props.viewIndex;
+    this.state = {
+      viewIndex: props.viewIndex};
   }
 
   static getDerivedStateFromProps(props, state){
@@ -68,11 +55,6 @@ class Main extends React.Component {
         <ViewManager viewIndex={this.state.viewIndex}/>
       </div>
     );
-  }
-
-  buttonClicked() {
-    this.state.showHome = !this.state.showHome;
-    ReactDOM.render(<Main/>, document.querySelector('#main'));
   }
 
 }
