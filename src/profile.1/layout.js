@@ -2,12 +2,9 @@
 // Imports
 //-----------------------------------------------------------------------------//
 
-import React     from 'react';
-import About     from './component/about'
-import Skill     from './component/skill'
-import Work      from './component/work'
-import Project   from './component/project'
-import Education from './component/education'
+import React       from 'react';
+import Picture     from './component/picture'
+import Description from './component/description'
 
 //-----------------------------------------------------------------------------//
 // Components
@@ -16,12 +13,13 @@ import Education from './component/education'
 class Layout extends React.Component {
   render() {
     return (
-      <div>
-        <About/>
-        <Skill/>
-        <Work/>
-        <Project/>
-        <Education/>
+      <div class='row'>
+        <div class='col-md-5'>
+          <Picture/>
+        </div>
+        <div class='col-md-7'>
+          <Description/>
+        </div>
       </div>
     );
   }

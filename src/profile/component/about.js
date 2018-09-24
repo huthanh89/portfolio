@@ -14,39 +14,19 @@ class Description extends React.Component {
       <div>
         <div class="card">
           <div class="card-header">
-            <i class="fas fa-user fa-fw"></i>
+            <i class="far fa-user"/>
               <b>
-                &nbsp;Contact
+                &nbsp;About Me
               </b>
-          </div>
+            </div>
           <div class="card-body">
             <p class="card-text">
-              <ul>
-                <li>
-                  <b>
-                    Technicals:&nbsp;
-                  </b>
-                  <span>
-                    JavaScript, C, C++, Java, Linux, Python
-                  </span>
-                </li>
-                <li>
-                  <b>
-                    Technologies:&nbsp;
-                  </b>
-                  <span>
-                    JQuery,  CSS, HTML, JSON, Backbone, Marionette, Highcharts, D3, Bootstrap, AWS, React, Gulp, Webpack, GIT, Node, Express, Nginx, MongoDB
-                  </span>
-                </li>
-                <li>
-                  <b>
-                    Operating Systems:&nbsp;
-                  </b>
-                  <span>
-                    MacOS, Linux
-                  </span>
-                </li>
-              </ul>
+              <b>
+                Objective:&nbsp;
+              </b>
+              <span>
+                Looking to be hired as a Full Stack Javascript Engineer.
+              </span>
             </p>
           </div>
         </div>
