@@ -9,11 +9,13 @@ nav{
 }
 
 
-nav .active{
+nav .active a{
     border-style: solid;
     border-color: rgb(52,163,218);
     border-width: 0px 0px 4px 0px;
+    padding-bottom: 5px;
 }
+
 
 .navbar-brand img{
     max-height: 50px;

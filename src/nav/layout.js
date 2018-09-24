@@ -70,14 +70,20 @@ class Layout extends React.Component {
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="nav navbar-nav ml-auto">
               <li class={classAttribute(isActive(0))} style={styleAttribute(isActive(0))} onClick={this.itemClickedPortfolio}>
-                <i class="fas fa-folder-open fa-fw fa-lg"></i> <span>View Portfolio</span>
+                <a>
+                  <i class="fas fa-folder-open fa-fw fa-lg"></i> <span >View Portfolio</span>
+                </a>
               </li>
               <li class={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
-                <i class="fas fa-print fa-fw fa-lg"></i> <span>Resume PDF</span>
+                <a>
+                  <i class="fas fa-print fa-fw fa-lg"></i> <span>Resume PDF</span>
+                </a>
               </li>
               <div class="d-none">
                 <li class={classAttribute(isActive(2)) + " hide"} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
-                  <i class="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
+                  <a>
+                    <i class="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
+                  </a>
                 </li>
               </div>
             </ul>
