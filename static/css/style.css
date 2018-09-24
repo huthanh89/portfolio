@@ -9,9 +9,9 @@ nav{
 
 
 nav .active{
-    border-style:   solid;
-    border-color:   rgb(52,163,218);
-    border-width:   0px 0px 4px 0px;
+    border-style: solid;
+    border-color: rgb(52,163,218);
+    border-width: 0px 0px 4px 0px;
 }
 
 .navbar-brand img{

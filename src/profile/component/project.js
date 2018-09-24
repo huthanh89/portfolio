@@ -24,7 +24,7 @@ class Component extends React.Component {
           <div class="card-body">
 
             <div class='row'>
-              <div class='col-md-6'>  
+              <div class='col-md-6  mb-2'>  
                 <h5 class="card-title">
                   <span>
                     MN Rewards
@@ -57,7 +57,7 @@ class Component extends React.Component {
             <div class="hr"></div>
 
             <div class='row'>
-              <div class='col-md-6'>
+              <div class='col-md-6 mb-2'>
                 <h5 class="card-title">
                   <span>
                     Workout Rank
