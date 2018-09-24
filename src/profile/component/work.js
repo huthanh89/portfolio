@@ -23,7 +23,7 @@ class Component extends React.Component {
             <div class='row'>
               <div class='col-md-12'>
                 <div class="card-title">
-                  <img class="profile-work-logo" src="image/neptune_logo.png"></img>
+                  <img class="card-title-logo" src="image/neptune_logo.png"></img>
                   <h4 class="d-inline">
                     Neptune Systems
                   </h4>
@@ -107,7 +107,7 @@ class Component extends React.Component {
             <div class='row'>
               <div class='col-md-6'>
                 <div class="card-title">
-                  <img class="profile-work-logo" src="image/time_service_logo.png"></img>
+                  <img class="card-title-logo" src="image/time_service_logo.png"></img>
                   <h4 class="d-inline">
                     <span>
                       Time Service Inc

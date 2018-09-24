@@ -99,9 +99,10 @@ nav .active{
     background: rgb(100, 98, 98);
 }
 
-.profile-work-logo{
+.card-title-logo{
     height: 50px;
-    width: 50px;
+    width:  50px;
+    margin-right: 5px;
 }
 
 .navbar-toggler{

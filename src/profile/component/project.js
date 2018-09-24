@@ -59,7 +59,7 @@ class Component extends React.Component {
             <div class='row'>
               <div class='col-md-12'>
                 <div class="card-title">
-                  <img class="profile-work-logo" src="image/workoutrank_logo.png"></img>
+                  <img class="card-title-logo" src="image/workoutrank_logo.png"></img>
                     <h4 class="d-inline">
                       Workout Rank
                     </h4>
