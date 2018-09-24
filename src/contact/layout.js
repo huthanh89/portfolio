@@ -2,9 +2,7 @@
 // Imports
 //-----------------------------------------------------------------------------//
 
-import React       from 'react';
-import Picture     from './component/picture'
-import Description from './component/description'
+import React from 'react';
 
 //-----------------------------------------------------------------------------//
 // Components
@@ -14,11 +12,8 @@ class Layout extends React.Component {
   render() {
     return (
       <div class='row'>
-        <div class='col-md-5'>
-          <Picture/>
-        </div>
-        <div class='col-md-7'>
-          <Description/>
+        <div class='col-md-12'>
+          <i class="fab fa-linkedin"></i>
         </div>
       </div>
     );

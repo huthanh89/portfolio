@@ -40,19 +40,21 @@ class Layout extends React.Component {
     function styleAttribute (active){
       if(active){
         return {
-          //'background': '#efefef',
-          'background': '#eff6ff',
-          'font-weight': 'bold',
-          'cursor': 'pointer'
+          ':hover': {
+            'background': 'yellow'
+          },
+          'font-weight': '500',
+          'cursor':      'pointer'
         }
       }else{
         return {
-          'background': 'white',
           'font-weight': 'normal',
-          'cursor': 'pointer'
+          'cursor':      'pointer'
         }
       }
     }
+
+    // TODO: remove class d-none to show contact list item.
 
     return (
       <nav class="navbar navbar-expand-md navbar-light border-bottom bg-white">
@@ -66,9 +68,11 @@ class Layout extends React.Component {
               <li class={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
                 <i class="fas fa-print fa-fw fa-lg"></i> <span>Print Resume</span>
               </li>
-              <li class={classAttribute(isActive(2))} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
-                <i class="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
-              </li>
+              <div class="d-none">
+                <li class={classAttribute(isActive(2)) + " hide"} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
+                  <i class="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
