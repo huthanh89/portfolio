@@ -8,7 +8,7 @@ import React from 'react';
 // Components
 //-----------------------------------------------------------------------------//
 
-class Description extends React.Component {
+class Component extends React.Component {
   render() {
     return (
       <div>
@@ -34,7 +34,7 @@ class Description extends React.Component {
                   Developer, June 2018 - July 2018
                 </h6>
                 <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
-                  View Repository
+                  View Code Repository
                 </a> 
               </div>     
               <div class='col-md-6'> 
@@ -67,7 +67,7 @@ class Description extends React.Component {
                   Developer, Apr 2016 - June 2016
                 </h6>
                 <a href="https://github.com/huthanh89/workoutrank" target="_blank"> 
-                  View Repository
+                  View Code Repository
                 </a>              
               </div>
               <div class='col-md-6'>
@@ -104,6 +104,6 @@ class Description extends React.Component {
 // Exports
 //-----------------------------------------------------------------------------//
 
-export default Description;
+export default Component;
 
 //-----------------------------------------------------------------------------//

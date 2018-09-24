@@ -8,7 +8,7 @@ import React from 'react';
 // Components
 //-----------------------------------------------------------------------------//
 
-class Description extends React.Component {
+class Component extends React.Component {
   render() {
     return (
       <div>
@@ -59,6 +59,6 @@ class Description extends React.Component {
 // Exports
 //-----------------------------------------------------------------------------//
 
-export default Description;
+export default Component;
 
 //-----------------------------------------------------------------------------//

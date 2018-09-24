@@ -43,4 +43,32 @@ html
               i.far.fa-envelope.fa-fw
               = ' '
               span hu.thanh89@yahoo.com
+    // Modal
+    #contactModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='exampleModalLabel', aria-hidden='true')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            h3#exampleModalLabel.modal-title Contact
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            .row
+              .col-sm-12
+                p
+                  b.d-block Call or Text
+                  span.d-block
+                  i.fas.fa-mobile-alt.fa-fw
+                  = ' '
+                  span (408) 841-1825
+            .row
+              .col-sm-12
+                p
+                  b.d-block Email
+                  span.d-block
+                  i.far.fa-envelope.fa-fw
+                  = ' '
+                  span hu.thanh89@yahoo.com
+          .modal-footer
+            button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+
     script(src='bundle.js')

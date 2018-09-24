@@ -11,19 +11,25 @@ import React from 'react';
 class Component extends React.Component {
   render() {
     return (
-      <div class="jumbotron">
-        <h1 class="display-4">Hi there!</h1>
-        <p class="lead">I'm a software engineer with 4 years experience with the latest technogies. Looking to be hired as a full stack javascript engineer.</p>
-        <hr class="my-4"/>
-        <p>Feel free to give me a call or send me an email.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#contactModal">
-            <i class="fas fa-users fa-fw"></i>
-            <span>
-              &nbsp; Contact Info
-            </span> 
-          </a>
-        </p>
+      <div>
+        <div class="card">
+          <div class="card-header">
+            <i class="far fa-user fa-fw fa-lg"/>
+              <b>
+                &nbsp;About
+              </b>
+            </div>
+          <div class="card-body">
+            <p class="card-text">
+              <b>
+                Objective:&nbsp;
+              </b>
+              <span>
+                Looking to be hired as a Full Stack Javascript Engineer.
+              </span>
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

@@ -26,6 +26,12 @@ nav .active{
     border-width:   0px 2px 2px 2px;
 }
 
+.jumbotron{
+    background-image: url('../image/jumbotron.jpg');
+    color:white;
+    box-shadow: 10px 10px 10px rgba(126, 123, 123, 0.671);
+}
+
 .footer{
     padding-top:    20px;
     padding-bottom: 20px;
@@ -48,8 +54,8 @@ nav .active{
 }
 
 .card-header{
-    color: white;
-    background-color:rgba(90, 129, 212, 0.952);
+   background-color:rgb(52,163,218);
+   color: white;
 }
 
 .hr {
