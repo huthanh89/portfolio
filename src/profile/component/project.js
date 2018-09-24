@@ -41,7 +41,7 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Full Stack development using MongoDB, MarionetteJS, NodeJS.
+                      Full Stack development using MarionetteJS, NodeJS.
                     </li>
                     <li>
                       Deployed on DigitalOcean web host and served with Nginx.
