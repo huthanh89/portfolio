@@ -14,7 +14,7 @@ class Description extends React.Component {
       <div>
         <div class="card">
           <div class="card-header">
-          <i class="fas fa-project-diagram fa-fw"></i>
+          <i class="fas fa-project-diagram fa-fw fa-lg"></i>
               <span>
                 <b>
                   &nbsp; Projects

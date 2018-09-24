@@ -14,7 +14,7 @@ class Component extends React.Component {
       <div>
         <div class="card">
           <div class="card-header">
-            <i class="fas fa-toolbox"></i>
+            <i class="fas fa-toolbox fa-fw fa-lg"></i>
               <b>
                 &nbsp;Work Experiences
               </b>
@@ -22,9 +22,12 @@ class Component extends React.Component {
           <div class="card-body">
             <div class='row'>
               <div class='col-md-12'>
-                <h5 class="card-title">
-                  Neptune Systems
-                </h5>
+                <div class="card-title">
+                  <img class="profile-work-logo" src="image/neptune_logo.png"></img>
+                  <h5 class="d-inline">
+                    Neptune Systems
+                  </h5>
+                </div>
                 <h6 class="card-subtitle mb-2 text-muted">
                   Software Engineer, Feb 2014 - Mar 2018
                 </h6>
@@ -33,7 +36,7 @@ class Component extends React.Component {
                 </a>
               </div>
               <div class='col-lg-6'>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide profile-work-corousal" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -103,11 +106,14 @@ class Component extends React.Component {
 
             <div class='row'>
               <div class='col-md-6'>
-                <h5 class="card-title">
-                  <span>
-                    Time Service Inc
-                  </span>
-                </h5>
+                <div class="card-title">
+                  <img class="profile-work-logo" src="image/time_service_logo.png"></img>
+                  <h5 class="d-inline">
+                    <span>
+                      Time Service Inc
+                    </span>
+                  </h5>                
+                </div>
                 <h6 class="card-subtitle mb-2 text-muted">
                   Technician, Dec 2007- Dec 2012
                 </h6>              

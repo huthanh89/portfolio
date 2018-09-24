@@ -14,7 +14,7 @@ class Description extends React.Component {
       <div>
         <div class="card">
           <div class="card-header">
-            <i class="far fa-user"/>
+            <i class="far fa-user fa-fw fa-lg"/>
               <b>
                 &nbsp;About Me
               </b>
