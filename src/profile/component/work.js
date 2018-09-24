@@ -54,7 +54,7 @@ class Component extends React.Component {
                       <img class="d-block w-100" src="image/neptune3.jpg" alt="Fourth slide"/>
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w- 100" src="image/neptune4.jpg" alt="First slide"/>
+                      <img class="d-block w- 100" src="image/neptune4.png" alt="First slide"/>
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

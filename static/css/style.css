@@ -109,6 +109,7 @@ nav .active{
 
 .profile-work-corousal img{
     height: 400px;
+    width: 100%;
     object-fit: contain;
     background: rgb(100, 98, 98);
 }
