@@ -69,7 +69,7 @@ class Layout extends React.Component {
                 <i class="fas fa-folder-open fa-fw fa-lg"></i> <span>View Portfolio</span>
               </li>
               <li class={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
-                <i class="fas fa-print fa-fw fa-lg"></i> <span>Print Resume</span>
+                <i class="fas fa-print fa-fw fa-lg"></i> <span>Resume PDF</span>
               </li>
               <div class="d-none">
                 <li class={classAttribute(isActive(2)) + " hide"} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
