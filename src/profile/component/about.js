@@ -13,7 +13,7 @@ class Component extends React.Component {
     return (
       <div class="jumbotron">
         <h1 class="display-4">Hi there!</h1>
-        <p class="lead">I'm a software engineer with years of experience using the latest technogies. Looking to be hired as a full stack javascript engineer.</p>
+        <p class="lead">I'm a software engineer with years of experience developing web applications. Looking to be hired as a full stack javascript engineer.</p>
         <hr class="my-4 bg-light"/>
         <p>Feel free to give me a call or send me an email.</p>
         <p class="lead">
