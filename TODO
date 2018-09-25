@@ -1,10 +1,15 @@
 
-Optimzation and speed improvements:
+Optimization and speed improvements:
 
-    1. Compress and file and make gulp task
-    2. Serve static files with nginx instead of node.
+1. Compress and file and make gulp task
+2. Serve static files with nginx instead of node.
 
 TODO: 
-
-    1. Update resume PDF
+1. Update resume PDF
+2. Connect DNS
     
+
+
+Domain names:
+- askmyresume.com $12
+- cloudresume.net $11
