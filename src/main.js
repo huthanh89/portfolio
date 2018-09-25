@@ -5,7 +5,7 @@
 import React    from 'react';
 import ReactDOM from 'react-dom';
 import Nav      from './nav/layout.js';
-import Profile  from './profile/layout.js';
+import Home     from './home/layout.js';
 import Resume   from './resume/layout.js';
 import Contact  from './contact/layout.js';
 
@@ -24,7 +24,7 @@ function updateViewIndex (index){
 function ViewManager(props) {
   if(props.viewIndex==0) {
     return (
-      <Profile/>
+      <Home/>
     );
   }else if (props.viewIndex==1) {
     return (
