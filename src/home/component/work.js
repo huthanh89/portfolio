@@ -71,7 +71,7 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Added new features to Apex Fusion and do maintanence on its source code.
+                      Added new features to Apex Fusion and maintained exisiting source code.
                     </li>
                     <li>
                       Used CoffeeScript, PUG, LESS, and Marionette for client-side development.
@@ -83,7 +83,7 @@ class Component extends React.Component {
                       Created step by step wizards to simplify the setup process.
                     </li>
                     <li>
-                      Incorprated a responsive web design approach, to better the mobile experience.
+                      Incorporated a responsive web design approach, to better the mobile experience.
                     </li>
                     <li>
                       Fixed bugs and improved UI based on user's feedback.
