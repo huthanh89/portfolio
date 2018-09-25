@@ -71,13 +71,13 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Added new features to Apex Fusion and maintained exisiting source code.
+                      Added new features to the application (ApexFusion) and maintained its source code.
                     </li>
                     <li>
-                      Used CoffeeScript, PUG, LESS, and Marionette for client-side development.
+                      Used CoffeeScript, PUG, LESS, and MarionetteJS for client-side development.
                     </li>
                     <li>
-                      Created new widgets for dashboard using data visualization technologies such as Highcharts and D3.
+                      Built new dashboard widgets using data visualization technologies such as Highcharts and D3.
                     </li>
                     <li>
                       Created step by step wizards to simplify the setup process.
@@ -125,7 +125,7 @@ class Component extends React.Component {
                       Trained employees on work procedures and how to properly use the equipments.
                     </li>
                     <li>
-                      Achieved highest company's certificate of level 5 Technician.
+                      Achieved the company's highest certification for level 5 Technician.
                     </li>
                   </ul>
                 </p>

@@ -41,13 +41,13 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Full Stack development using MarionetteJS, NodeJS.
+                      Application pulls real time cryptocurrency prices and token metrics from an exchange to display them to the user.
+                    </li>
+                    <li>
+                      Full stack development using NodeJS and MarionetteJS.
                     </li>
                     <li>
                       Deployed on DigitalOcean web host and served with Nginx.
-                    </li>
-                    <li>
-                      Pull real time cryptocurrency prices and token metrics from an exchange and display them to the user.
                     </li>
                   </ul>
                 </p>
@@ -103,19 +103,19 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Full Stack development using MongoDB, Express, MarionetteJS, NodeJS.
+                      Developed an application fitness tracker that displays the user's performance and workout schedule.
+                    </li>
+                    <li>
+                      Used technologies such as MongoDB, NodeJS and MarionetteJS.
                     </li>
                     <li>
                       Deployed on AWS and served with Nginx.
                     </li>
                     <li>
-                      Github version control.
+                      Made the application responsive for mobile consumption.
                     </li>
                     <li>
-                      Automatic builds using Webpack and Gulp task runner.
-                    </li>
-                    <li>
-                      Optimized for SEO compliance.
+                      Optimized the website for SEO compliance.
                     </li>
                   </ul>
                 </p>              
