@@ -71,28 +71,25 @@ class Component extends React.Component {
                 <p class="card-text">
                   <ul>
                     <li>
-                      Full Stack development using MongoDB, Express, Backbone, NodeJS.
+                      Added new features to Apex Fusion and do maintanence on its source code.
                     </li>
                     <li>
-                      Client-side development (CoffeeScript, PUG, LESS, D3, Marionette).
+                      Used CoffeeScript, PUG, LESS, and Marionette for client-side development.
                     </li>
                     <li>
-                      Created new widgets for dashboard.
+                      Created new widgets for dashboard using data visualization technologies such as Highcharts and D3.
                     </li>
                     <li>
-                    Worked with data visualization technologies (Highcharts, D3js).
+                      Created step by step wizards to simplify the setup process.
                     </li>
                     <li>
-                      Created responsive pages for desktop and mobile experience.
+                      Incorprated a responsive web design approach, to better the mobile experience.
                     </li>
                     <li>
-                      Fixed bugs and improved UI for Apex Fusion web application.
+                      Fixed bugs and improved UI based on user's feedback.
                     </li>
                     <li>
-                      Created step by step wizards for setup processes.
-                    </li>
-                    <li>
-                      Server-side development (NodeJS, Express, Mongoose, MongoDB).
+                      Worked on server-side development with NodeJS, Express, and MongoDB.
                     </li>
                     <li>
                       Implemented REST APIs for the Apex Fusion client.
