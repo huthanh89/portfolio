@@ -6,9 +6,9 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-// Set view engine to pug and specify the file locations.
+// Set view engine to html and specify the file locations.
 
-app.set('view engine', 'pug')
+app.set('view engine', 'html')
 app.set("views", path.join(__dirname, "dist"));
 
 // Use files under following directories.
