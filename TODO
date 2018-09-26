@@ -1,10 +1,8 @@
 
-Optimization and speed improvements:
-
-- Serve static files with nginx instead of node.
-
 TODO: 
 
-- Change livereload to webpack developement server.
+- Change livereload to webpack development server.
 
 - Organize JSON package. Separate dev tools from production.
+
+- Serve static files with nginx instead of node.

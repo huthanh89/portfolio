@@ -12,8 +12,14 @@ body {
 	font-family:       "sans-serif";
 	font-size:          18px;
 }
-nav {
+
+.navbar {
+	top:        0;
+	width:      100%;
 	box-shadow: 0px 2px @color0;
+	position:   fixed;
+	z-index:    1;
+
 	.active {
 		a {
 			border-color: rgb(52,163,218);
@@ -23,19 +29,22 @@ nav {
 		}
 	}
 }
+
 .navbar-brand {
 	img {
 		max-height: @height1;
 	}
 }
+
 #main-container {
 	border-color:   @color0;
 	border-style:   solid;
 	border-width:   0px 2px 2px 2px;
-	margin-top:     15px;
+	margin-top:     95px;
 	padding-bottom: 25px;
 	padding-top:    25px;
 }
+
 .jumbotron {
 	background-attachment: fixed;
 	background-image:      url('../asset/jumbotron.jpg');
@@ -43,13 +52,16 @@ nav {
 	box-shadow:            5px 5px 10px rgba(126, 123, 123, 0.671);
 	color:               rgb(255, 255, 255);
 }
+
 .footer {
 	padding-bottom: 20px;
 	padding-top:    20px;
 }
+
 #profile-picture {
 	max-width: 365px;
 }
+
 .card {
 	margin-bottom: 15px;
 	ul {
@@ -65,12 +77,14 @@ nav {
 	color:               rgb(255, 255, 255);
 	background-color:    #34a3da;
 }
+
 .hr {
 	border-top:    1px solid rgba(0, 0, 0, 0.2);
 	border:        0;
 	margin-bottom: 20px;
 	margin-top:    20px;
 }
+
 .profile-work-corousal {
 	img {
 		height:     400px;
@@ -78,6 +92,7 @@ nav {
 		width:      100%;
 	}
 }
+
 .carousel {
 	background-color:rgba(0, 0, 0, 0.863);
 	border-color:    rgb(185, 185, 185);
@@ -87,16 +102,19 @@ nav {
 	margin-bottom:     20px;
 	margin-top:        10px;
 }
+
 .carousel-control-prev-icon {
 	background-color: rgb(41, 41, 41);
 	height:            @height1;
 	width:             @width2;
 }
+
 .carousel-control-next-icon {
 	background-color: rgb(41, 41, 41);
 	height:            @height1;
 	width:             @width2;
 }
+
 .carousel-indicators {
 	li {
 		background-color: rgb(165, 165, 165);
@@ -109,11 +127,13 @@ nav {
 		background-color: rgb(235, 154, 63);
 	}
 }
+
 .card-title-logo {
 	height:      @height1;
 	margin-right: 5px;
 	width:       @width2;
 }
+
 .navbar-toggler {
 	border-color: rgb(199, 198, 198);
 	border-radius:  5px;
