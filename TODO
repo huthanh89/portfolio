@@ -5,8 +5,6 @@ Optimization and speed improvements:
 
 TODO: 
 
-- Fix production vs development CSS build and route from index.html 
-
 - Change livereload to webpack developement server.
 
 - Organize JSON package. Separate dev tools from production.
