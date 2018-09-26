@@ -32,7 +32,7 @@ class Component extends React.Component {
                   Software Engineer, Feb 2014 - Mar 2018
                 </h5>
                 <a href="https://www.neptunesystems.com/apex-fusion/" target="_blank"> 
-                  View Website
+                  Website
                 </a>
               </div>
               <div class='col-lg-6'>

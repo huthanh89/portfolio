@@ -24,6 +24,45 @@ class Component extends React.Component {
           <div class="card-body">
 
             <div class='row'>
+                <div class='col-md-6  mb-2'>  
+                  <h4 class="card-title">
+                    <span>
+                      Cloud Resume
+                    </span>
+                  </h4>
+                  <h5 class="card-subtitle mb-2 text-muted">
+                    Developer, June 2018 - July 2018
+                  </h5>
+                  <a href="http://cloudresume.net/" target="_blank"> 
+                    Website
+                  </a>
+                  <span>
+                    &nbsp;|&nbsp;
+                  </span>
+                  <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
+                    Repository
+                  </a> 
+                </div>     
+                <div class='col-md-6'> 
+                  <p class="card-text">
+                    <ul>
+                      <li>
+                        A web application to view my portfolio and print my resume.
+                      </li>
+                      <li>
+                        Developed using NodeJS and ReactJS.
+                      </li>
+                      <li>
+                        Deployed on AWS and served with Nginx.
+                      </li>
+                    </ul>
+                  </p>
+                </div>        
+              </div>
+
+            <div class="hr"></div>
+
+            <div class='row'>
               <div class='col-md-6  mb-2'>  
                 <h4 class="card-title">
                   <span>
@@ -34,7 +73,7 @@ class Component extends React.Component {
                   Developer, June 2018 - July 2018
                 </h5>
                 <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
-                  View Code Repository
+                  Repository
                 </a> 
               </div>     
               <div class='col-md-6'> 
@@ -68,7 +107,7 @@ class Component extends React.Component {
                   Developer, Apr 2016 - June 2016
                 </h5>
                 <a href="https://github.com/huthanh89/workoutrank" target="_blank"> 
-                  View Code Repository
+                  Repository
                 </a>              
               </div>
               <div class='col-lg-6'>

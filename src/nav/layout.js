@@ -71,7 +71,7 @@ class Layout extends React.Component {
             <ul class="nav navbar-nav ml-auto">
               <li class={classAttribute(isActive(0))} style={styleAttribute(isActive(0))} onClick={this.itemClickedPortfolio}>
                 <a>
-                  <i class="fas fa-folder-open fa-fw fa-lg"></i> <span >View Portfolio</span>
+                  <i class="fas fa-folder-open fa-fw fa-lg"></i> <span >Portfolio</span>
                 </a>
               </li>
               <li class={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
