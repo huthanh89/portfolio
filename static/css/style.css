@@ -72,6 +72,12 @@ nav .active a{
     border-top:    1px solid rgba(0, 0, 0, 0.2);
 }
 
+.profile-work-corousal img{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
 .carousel{
     border-style: solid;
     border-width: 1px;
@@ -79,6 +85,7 @@ nav .active a{
     box-shadow: 5px 5px 25px grey;
     margin-top:    10px;
     margin-bottom: 20px;
+    background-color:rgba(0, 0, 0, 0.863);
 }
 
 .carousel-control-prev-icon
@@ -109,12 +116,6 @@ nav .active a{
 }
   
 
-.profile-work-corousal img{
-    height: 400px;
-    width: 100%;
-    object-fit: contain;
-    background: black;
-}
 
 .card-title-logo{
     height: 50px;
