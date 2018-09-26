@@ -31,7 +31,7 @@ class Component extends React.Component {
                     </span>
                   </h4>
                   <h5 class="card-subtitle mb-2 text-muted">
-                    Developer, June 2018 - July 2018
+                    Developer, July 2018 - Aug 2018
                   </h5>
                   <a href="http://cloudresume.net/" target="_blank"> 
                     Website
