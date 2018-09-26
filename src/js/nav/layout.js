@@ -65,7 +65,7 @@ class Layout extends React.Component {
             </span>
           </button>
           <a className="navbar-brand" href="#" data-toggle="modal" data-target="#contactModal">
-                <img src="image/logo.jpg" alt=""/>
+                <img src="asset/logo.jpg" alt=""/>
           </a>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul className="nav navbar-nav ml-auto">

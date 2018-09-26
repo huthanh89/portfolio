@@ -5,11 +5,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/js/main.js',
   performance: { hints: false },
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public')
+    filename: 'bundle.js'
   },
 
   // Configure webpack to read pug, babel, etc.

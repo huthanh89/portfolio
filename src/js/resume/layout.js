@@ -18,9 +18,9 @@ class Layout extends React.Component {
 
   render() {
     return (
-      <object data="resume.pdf" type="application/pdf" width="100%" height="100%">
-        <iframe src="resume.pdf" width="100%" height="100%">
-          This browser does not support PDFs. Please download the PDF to view it: <a href="resume.pdf">Download PDF</a>
+      <object data="asset/resume.pdf" type="application/pdf" width="100%" height="100%">
+        <iframe src="asset/resume.pdf" width="100%" height="100%">
+          This browser does not support PDFs. Please download the PDF to view it: <a href="asset/resume.pdf">Download PDF</a>
         </iframe>
       </object>
 

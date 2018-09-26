@@ -26,7 +26,7 @@ class Component extends React.Component {
             <div className='row'>
               <div className='col-md-12'>
                 <div className="card-title">
-                    <img className="card-title-logo" src="image/sjsu_logo.png"></img>
+                    <img className="card-title-logo" src="asset/sjsu_logo.png"></img>
                       <h4 className="d-inline">
                         San Jose State University
                       </h4>

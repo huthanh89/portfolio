@@ -9,12 +9,12 @@ const app = express();
 // Set view engine to pug and specify the file locations.
 
 app.set('view engine', 'pug')
-app.set("views", path.join(__dirname, "static"));
+app.set("views", path.join(__dirname, "dist"));
 
 // Use files under following directories.
 
 app.use(express.static(__dirname));
-app.use(express.static(__dirname + '/static'));
+app.use(express.static(__dirname + '/dist'));
 
 // Handle route.
 

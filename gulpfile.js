@@ -2,14 +2,17 @@
 // Imports
 //-----------------------------------------------------------------------------//
 
-var _             = require ('lodash');
-var gulp          = require('gulp');
-var nodemon       = require('gulp-nodemon');
-var webpackStream = require('webpack-stream');
-var livereload    = require('gulp-livereload');
-var webpackConfig = require('./webpack.config');
-var cleanCSS      = require('gulp-clean-css');
-var rename        = require("gulp-rename");
+const _             = require ('lodash');
+const gulp          = require('gulp');
+const nodemon       = require('gulp-nodemon');
+const webpackStream = require('webpack-stream');
+const livereload    = require('gulp-livereload');
+const webpackConfig = require('./webpack.config');
+const cleanCSS      = require('gulp-clean-css');
+const rename        = require('gulp-rename');
+const pug           = require('gulp-pug');
+const less          = require('gulp-less');
+const htmlmin       = require('gulp-htmlmin');
 
 //-----------------------------------------------------------------------------//
 // Tasks
@@ -28,17 +31,22 @@ gulp.task('compress-js', function () {
             config: config
         }))
         .pipe(rename('bundle.js'))
-        .pipe(gulp.dest('static'));
+        .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('compress-css', function () {
-    return  gulp.src('static/css/style.css')
+    return  gulp.src('dist/css/style.css')
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(rename('style-min.css'))
-        .pipe(gulp.dest('static'));
+        .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('build', function(cb) {
+gulp.task('compress-html', function () {
+    return  gulp.src('dist/index.html')
+        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(gulp.dest('dist'));
+});
+
+gulp.task('build-js', function(cb) {
 
     let config = _.assignIn(webpackConfig, {
         mode: 'development'
@@ -49,14 +57,37 @@ gulp.task('build', function(cb) {
         cb();
     };
 
-    gulp.src('src/main.js')
+    gulp.src('src/js/main.js')
         .pipe(webpackStream({
             config: config
         }))
-        .pipe(gulp.dest('static')).on('end', reload);
+        .pipe(gulp.dest('dist/js')).on('end', reload);
 });
 
-gulp.task('run', function () {
+gulp.task('build-css', function (cb) {
+
+    let reload = function(){
+        livereload.reload();
+        cb();
+    };
+
+    gulp.src('src/css/**/*.less')
+        .pipe(less())
+        .pipe(gulp.dest('dist/css')).on('end', reload);
+});
+
+gulp.task('build-html', function (cb) {
+    let reload = function(){
+        livereload.reload();
+        cb();
+    };
+
+    gulp.src('src/html/**/*.pug')
+        .pipe(pug())
+        .pipe(gulp.dest('dist')).on('end', reload);
+});
+
+gulp.task('start-server', function () {
 
     nodemon({
         script: 'server.js',
@@ -70,20 +101,29 @@ gulp.task('run', function () {
     livereload({ start: true });
 })
 
-// Default task. Run command: "gulp"
-
-gulp.task('default', ['build', 'run'])
-
 // Production build.
 
-gulp.task('production', ['compress-css', 'compress-js'])
+gulp.task('production', [
+    'compress-js', 
+    'compress-css',
+    'compress-html',
+])
+
+// Default task. Run command: "gulp" to start development environment.
+
+gulp.task('default', [
+    'build-js', 
+    'build-css', 
+    'build-html', 
+    'start-server'
+])
 
 //-----------------------------------------------------------------------------//
 // Watch changes
 //-----------------------------------------------------------------------------//
 
-gulp.watch('src/**', ['build']);
-gulp.watch('static/css/**', ['build']);
-gulp.watch('static/index.pug', ['build']);
+gulp.watch('src/js/**',   ['build-js']);
+gulp.watch('src/css/**',  ['build-css']);
+gulp.watch('src/html/**', ['build-html']);
 
 //-----------------------------------------------------------------------------//

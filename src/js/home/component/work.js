@@ -23,7 +23,7 @@ class Component extends React.Component {
             <div className='row'>
               <div className='col-md-12'>
                 <div className="card-title">
-                  <img className="card-title-logo" src="image/neptune_logo.png"></img>
+                  <img className="card-title-logo" src="asset/neptune_logo.png"></img>
                   <h4 className="d-inline">
                     Neptune Systems
                   </h4>
@@ -45,16 +45,16 @@ class Component extends React.Component {
                   </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img className="d-block w-100" src="image/neptune2.jpg" alt="Third slide"/>
+                      <img className="d-block w-100" src="asset/neptune2.jpg" alt="Third slide"/>
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w- 100" src="image/neptune1.jpg" alt="Second slide"/>
+                      <img className="d-block w- 100" src="asset/neptune1.jpg" alt="Second slide"/>
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w-100" src="image/neptune3.jpg" alt="Fourth slide"/>
+                      <img className="d-block w-100" src="asset/neptune3.jpg" alt="Fourth slide"/>
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w- 100" src="image/neptune4.png" alt="First slide"/>
+                      <img className="d-block w- 100" src="asset/neptune4.png" alt="First slide"/>
                     </div>
                   </div>
                   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,7 +102,7 @@ class Component extends React.Component {
             <div className='row'>
               <div className='col-md-6'>
                 <div className="card-title">
-                  <img className="card-title-logo" src="image/time_service_logo.png"></img>
+                  <img className="card-title-logo" src="asset/time_service_logo.png"></img>
                   <h4 className="d-inline">
                     <span>
                       Time Service Inc

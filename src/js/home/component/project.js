@@ -26,7 +26,7 @@ class Component extends React.Component {
             <div className='row'>
                 <div className='col-md-6  mb-2'>  
                   <div className="card-title">
-                    <img className="card-title-logo" src="image/cloudresume_logo.jpg"></img>
+                    <img className="card-title-logo" src="asset/cloudresume_logo.jpg"></img>
                       <h4 className="d-inline">
                         Online Resume
                       </h4>
@@ -64,7 +64,7 @@ class Component extends React.Component {
             <div className='row'>
               <div className='col-md-6  mb-2'>  
                 <div className="card-title">
-                  <img className="card-title-logo" src="image/mnrewards_logo.png"></img>
+                  <img className="card-title-logo" src="asset/mnrewards_logo.png"></img>
                     <h4 className="d-inline">
                       MN Rewards
                     </h4>
@@ -96,7 +96,7 @@ class Component extends React.Component {
             <div className='row'>
               <div className='col-md-12'>
                 <div className="card-title">
-                  <img className="card-title-logo" src="image/workoutrank_logo.png"></img>
+                  <img className="card-title-logo" src="asset/workoutrank_logo.png"></img>
                     <h4 className="d-inline">
                       Workout Rank
                     </h4>
@@ -117,13 +117,13 @@ class Component extends React.Component {
                   </ol>
                   <div className="carousel-inner">
                     <div className="carousel-item active">
-                      <img className="d-block w-100" src="image/workoutrank1.jpg" alt="First slide"/>
+                      <img className="d-block w-100" src="asset/workoutrank1.jpg" alt="First slide"/>
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w-100" src="image/workoutrank2.jpg" alt="Third slide"/>
+                      <img className="d-block w-100" src="asset/workoutrank2.jpg" alt="Third slide"/>
                     </div>
                     <div className="carousel-item">
-                      <img className="d-block w-100" src="image/workoutrank3.jpg" alt="Third slide"/>
+                      <img className="d-block w-100" src="asset/workoutrank3.jpg" alt="Third slide"/>
                     </div>
                   </div>
                   <a className="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
