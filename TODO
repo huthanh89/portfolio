@@ -1,10 +1,10 @@
 
 Optimization and speed improvements:
 
-1. Compress and file and make gulp task
-2. Serve static files with nginx instead of node.
+- Serve static files with nginx instead of node.
 
 TODO: 
-1. 
+
+- Fix production vs developement CSS build and route from index.html 
 
     

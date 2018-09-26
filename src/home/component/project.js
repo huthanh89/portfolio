@@ -113,7 +113,7 @@ class Component extends React.Component {
                 </a>              
               </div>
               <div class='col-lg-6'>
-                <div id="carouselExampleIndicators2" class="carousel slide profile-work-corousal" data-ride="carousel">
+                <div id="carouselExampleIndicators2" class="carousel carousel-fade profile-work-corousal" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
