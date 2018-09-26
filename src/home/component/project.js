@@ -25,11 +25,12 @@ class Component extends React.Component {
 
             <div class='row'>
                 <div class='col-md-6  mb-2'>  
-                  <h4 class="card-title">
-                    <span>
-                      Cloud Resume
-                    </span>
-                  </h4>
+                  <div class="card-title">
+                    <img class="card-title-logo" src="image/cloudresume_logo.jpg"></img>
+                      <h4 class="d-inline">
+                        Online Resume
+                      </h4>
+                  </div>
                   <h5 class="card-subtitle mb-2 text-muted">
                     Developer, July 2018 - Aug 2018
                   </h5>
@@ -64,11 +65,12 @@ class Component extends React.Component {
 
             <div class='row'>
               <div class='col-md-6  mb-2'>  
-                <h4 class="card-title">
-                  <span>
-                    MN Rewards
-                  </span>
-                </h4>
+                <div class="card-title">
+                  <img class="card-title-logo" src="image/mnrewards_logo.png"></img>
+                    <h4 class="d-inline">
+                      MN Rewards
+                    </h4>
+                </div>
                 <h5 class="card-subtitle mb-2 text-muted">
                   Developer, June 2018 - July 2018
                 </h5>
