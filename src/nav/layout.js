@@ -43,46 +43,46 @@ class Layout extends React.Component {
           ':hover': {
             'background': 'yellow'
           },
-          'font-weight': '500',
+          'fontWeight': '500',
           'cursor':      'pointer'
         }
       }else{
         return {
-          'font-weight': 'normal',
+          'fontWeight': 'normal',
           'cursor':      'pointer'
         }
       }
     }
 
-    // TODO: remove class d-none to show contact list item.
+    // TODO: remove className d-none to show contact list item.
 
     return (
-      <nav class="navbar navbar-expand-md border-bottom bg-white">
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <nav className="navbar navbar-expand-md border-bottom bg-white">
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span>
-              <i class="fas fa-bars fa-lg"></i>
+              <i className="fas fa-bars fa-lg"></i>
             </span>
           </button>
-          <a class="navbar-brand" href="#" data-toggle="modal" data-target="#contactModal">
+          <a className="navbar-brand" href="#" data-toggle="modal" data-target="#contactModal">
                 <img src="image/logo.jpg" alt=""/>
           </a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="nav navbar-nav ml-auto">
-              <li class={classAttribute(isActive(0))} style={styleAttribute(isActive(0))} onClick={this.itemClickedPortfolio}>
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul className="nav navbar-nav ml-auto">
+              <li className={classAttribute(isActive(0))} style={styleAttribute(isActive(0))} onClick={this.itemClickedPortfolio}>
                 <a>
-                  <i class="fas fa-folder-open fa-fw fa-lg"></i> <span >Portfolio</span>
+                  <i className="fas fa-folder-open fa-fw fa-lg"></i> <span >Portfolio</span>
                 </a>
               </li>
-              <li class={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
+              <li className={classAttribute(isActive(1))} style={styleAttribute(isActive(1))} onClick={this.itemClickedResume}>
                 <a>
-                  <i class="fas fa-print fa-fw fa-lg"></i> <span>Resume PDF</span>
+                  <i className="fas fa-print fa-fw fa-lg"></i> <span>Resume PDF</span>
                 </a>
               </li>
-              <div class="d-none">
-                <li class={classAttribute(isActive(2)) + " hide"} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
+              <div className="d-none">
+                <li className={classAttribute(isActive(2)) + " hide"} style={styleAttribute(isActive(2))} onClick={this.itemClickedContact}>
                   <a>
-                    <i class="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
+                    <i className="fas fa-user fa-fw fa-lg"></i> <span>Contact Me</span>
                   </a>
                 </li>
               </div>

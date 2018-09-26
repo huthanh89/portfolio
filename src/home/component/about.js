@@ -11,14 +11,14 @@ import React from 'react';
 class Component extends React.Component {
   render() {
     return (
-      <div class="jumbotron">
-        <h1 class="display-4">Hi there!</h1>
-        <p class="lead">I'm a software engineer with years of experience developing web applications. Looking to be hired as a full stack javascript engineer.</p>
-        <hr class="my-4 bg-light"/>
+      <div className="jumbotron">
+        <h1 className="display-4">Hi there!</h1>
+        <p className="lead">I'm a software engineer with years of experience developing web applications. Looking to be hired as a full stack javascript engineer.</p>
+        <hr className="my-4 bg-light"/>
         <p>Feel free to give me a call or send me an email.</p>
-        <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#contactModal">
-            <i class="fas fa-user"></i>
+        <p className="lead">
+          <a className="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#contactModal">
+            <i className="fas fa-user"></i>
             <span>
               &nbsp; Contact Info
             </span> 

@@ -12,31 +12,31 @@ class Component extends React.Component {
   render() {
     return (
       <div>
-        <div class="card">
-          <div class="card-header">
-              <i class="fas fa-graduation-cap fa-fw fa-lg"/>
+        <div className="card">
+          <div className="card-header">
+              <i className="fas fa-graduation-cap fa-fw fa-lg"/>
               <span>
                 <b>
                   &nbsp; Education
                 </b>
               </span>
           </div>
-          <div class="card-body">
+          <div className="card-body">
 
-            <div class='row'>
-              <div class='col-md-12'>
-                <div class="card-title">
-                    <img class="card-title-logo" src="image/sjsu_logo.png"></img>
-                      <h4 class="d-inline">
+            <div className='row'>
+              <div className='col-md-12'>
+                <div className="card-title">
+                    <img className="card-title-logo" src="image/sjsu_logo.png"></img>
+                      <h4 className="d-inline">
                         San Jose State University
                       </h4>
                   </div>
               </div>
             </div>
 
-            <h5 class="card-subtitle mb-2 text-muted">Fall 2010 - Fall 2014</h5>
-            <p class="card-text">Bachelor of Science in Computer Engineering</p>
-            <p class="card-text">
+            <h5 className="card-subtitle mb-2 text-muted">Fall 2010 - Fall 2014</h5>
+            <p className="card-text">Bachelor of Science in Computer Engineering</p>
+            <p className="card-text">
               <b>
                 Relevant Coursework:&nbsp;
               </b>

@@ -45,8 +45,13 @@ class Main extends React.Component {
       viewIndex: props.viewIndex};
   }
 
-  static getDerivedStateFromProps(props, state){
-    state.viewIndex = props.viewIndex;
+  static getDerivedStateFromProps(props){
+
+    // Return new state properties.
+
+    return {
+      viewIndex: props.viewIndex
+    }
   }
 
   render() {

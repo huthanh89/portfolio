@@ -7,4 +7,8 @@ TODO:
 
 - Fix production vs developement CSS build and route from index.html 
 
-    
+- Fix react warnings / errors on console
+
+- Redo /static and /src directory.
+
+- Change livereload to webpack developement server.
