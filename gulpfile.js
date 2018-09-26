@@ -18,8 +18,6 @@ const htmlmin       = require('gulp-htmlmin');
 // Tasks
 //-----------------------------------------------------------------------------//
 
-// Compress js task not working. Currently compressed with webpack.
-
 gulp.task('compress-js', function () {
 
     let config = _.assignIn(webpackConfig, {
@@ -100,6 +98,10 @@ gulp.task('start-server', function () {
 
     livereload({ start: true });
 })
+
+//-----------------------------------------------------------------------------//
+// Main tasks
+//-----------------------------------------------------------------------------//
 
 // Production build.
 
