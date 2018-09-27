@@ -3,6 +3,8 @@ TODO:
 
 - Change livereload to webpack development server.
 
-- Organize JSON package. Separate dev tools from production.
+- Organize JSON package. Separate dev tools from production. Remove unused packages.
 
 - Serve static files with nginx instead of node.
+
+- Compress images and pdf

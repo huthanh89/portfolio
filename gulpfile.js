@@ -13,6 +13,7 @@ const rename        = require('gulp-rename');
 const pug           = require('gulp-pug');
 const less          = require('gulp-less');
 const htmlmin       = require('gulp-htmlmin');
+const imagemin      = require('gulp-imagemin');
 
 //-----------------------------------------------------------------------------//
 // Tasks
@@ -42,6 +43,17 @@ gulp.task('compress-html', function () {
     return  gulp.src('dist/index.html')
         .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest('dist'));
+});
+
+gulp.task('compress-img', function () {
+    return  gulp.src('src/asset/image/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('dist/asset'));
+});
+
+gulp.task('copy-pdf', function () {
+    return  gulp.src('src/asset/pdf/*')
+        .pipe(gulp.dest('dist/asset'));
 });
 
 gulp.task('build-js', function(cb) {
@@ -104,11 +116,14 @@ gulp.task('start-server', function () {
 //-----------------------------------------------------------------------------//
 
 // Production build.
+// Compress files and move asset files to /dist folder.
 
 gulp.task('production', [
     'compress-js', 
     'compress-css',
     'compress-html',
+    'compress-img',
+    'copy-pdf'
 ])
 
 // Default task. Run command: "gulp" to start development environment.
