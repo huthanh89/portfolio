@@ -35,19 +35,30 @@ gulp.task('compress-js', function () {
 
 gulp.task('compress-css', function () {
     return  gulp.src('dist/css/style.css')
-        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(cleanCSS({
+            compatibility: 'ie8'
+        }))
         .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('compress-html', function () {
     return  gulp.src('dist/index.html')
-        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(htmlmin({ 
+            collapseWhitespace: true 
+        }))
         .pipe(gulp.dest('dist'));
 });
 
 gulp.task('compress-img', function () {
     return  gulp.src('src/asset/image/*')
-        .pipe(imagemin())
+        .pipe(imagemin({
+            interlaced: true,
+            progressive: true,
+            optimizationLevel: 5,
+            svgoPlugins: [{
+                removeViewBox: true
+            }]
+        }))
         .pipe(gulp.dest('dist/asset'));
 });
 
