@@ -40,7 +40,7 @@ class Component extends React.Component {
                   <span>
                     &nbsp;|&nbsp;
                   </span>
-                  <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
+                  <a href="https://github.com/huthanh89/portfolio" target="_blank"> 
                     Repository
                   </a> 
                 </div>     
