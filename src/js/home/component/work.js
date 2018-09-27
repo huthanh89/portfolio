@@ -119,7 +119,7 @@ class Component extends React.Component {
                     Repaired and rebuilt damaged analog watches. 
                   </li>
                   <li>
-                    Trained employees on work procedures and how to properly use the equipments.
+                    Trained employees on work procedures and how to properly use the equipment.
                   </li>
                   <li>
                     Achieved the company's highest certification for level 5 Technician.
