@@ -52,8 +52,11 @@ body {
   background-image: url('../asset/jumbotron.jpg');
   background-repeat: no-repeat;
   box-shadow: 5px 5px 10px rgba(126, 123, 123, 0.671);
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.92);
   background-color: #34a3da;
+  text-align: center;
+  font-size: 23px;
+  letter-spacing: 1.5px;
 }
 .hr {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
