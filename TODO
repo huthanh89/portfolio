@@ -6,3 +6,5 @@ TODO:
 - Organize JSON package. Separate dev tools from production. Remove unused packages.
 
 - Serve static files with nginx instead of node.
+
+- Shrinkwrap JSON packages for production.
