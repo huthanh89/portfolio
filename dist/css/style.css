@@ -62,7 +62,6 @@ body {
 }
 .hr {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-  border: 0;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -104,9 +103,13 @@ body {
   background-color: #eb9a3f;
 }
 .card-title-logo {
-  height: 50px;
+  height: 40px;
   margin-right: 5px;
-  width: 50px;
+  width: 40px;
+}
+.card-title h4 {
+  position: relative;
+  top: 4px;
 }
 .navbar-toggler {
   border-color: #c7c6c6;
