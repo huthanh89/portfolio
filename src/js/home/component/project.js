@@ -78,7 +78,7 @@ class Component extends React.Component {
                     Used HighChart's library for data visualization.
                   </li>
                   <li>
-                    Made application responsive to fit on mobile or desktop screen, by using BootStrap framework. 
+                    Made application responsive to fit on mobile or desktop screen, by using Bootstrap framework. 
                   </li>
                 </ul>
               </div>        
