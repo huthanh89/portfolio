@@ -32,7 +32,7 @@ class Component extends React.Component {
                   </h4>
                 </div>
                 <h5 className="card-subtitle mb-2 text-muted">
-                  Developer, Sep 2018
+                  Developer, Sep 2018 - Present
                 </h5>
                 <a href="https://github.com/huthanh89/budget" target="_blank"> 
                   Repository
@@ -95,7 +95,7 @@ class Component extends React.Component {
                       </h4>
                   </div>
                   <h5 className="card-subtitle mb-2 text-muted">
-                    Developer, July 2018
+                    Developer, July 2018 - Present
                   </h5>
                   <a href="http://cloudresume.net/" target="_blank"> 
                     Website
@@ -133,7 +133,7 @@ class Component extends React.Component {
                     </h4>
                 </div>
                 <h5 className="card-subtitle mb-2 text-muted">
-                  Developer, June 2018
+                  Developer, June 2018 - July 2018
                 </h5>
                 <a href="https://github.com/huthanh89/mn.rewards" target="_blank"> 
                   Repository
@@ -165,7 +165,7 @@ class Component extends React.Component {
                     </h4>
                 </div>
                 <h5 className="card-subtitle mb-2 text-muted">
-                  Developer, Apr 2016
+                  Developer, Apr 2016 - June 2016
                 </h5>
                 <a href="https://github.com/huthanh89/workoutrank" target="_blank"> 
                   Repository
