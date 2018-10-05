@@ -34,6 +34,12 @@ class Component extends React.Component {
                 <h5 className="card-subtitle mb-2 text-muted">
                   Developer, Sep 2018 - Present
                 </h5>
+                <a href="http://cloudresume.net/budgetid/" target="_blank"> 
+                    Website
+                  </a>
+                  <span>
+                    &nbsp;|&nbsp;
+                  </span>
                 <a href="https://github.com/huthanh89/budget" target="_blank"> 
                   Repository
                 </a> 
