@@ -26,7 +26,7 @@ class Component extends React.Component {
             Website
           </a>              
           <a className="btn btn-secondary mr-2" href="https://github.com/huthanh89/math" target="_blank">
-            Source
+            Code
           </a> 
         </div>     
         <div className='col-lg-6'>

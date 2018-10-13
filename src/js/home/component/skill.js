@@ -26,23 +26,23 @@ class Component extends React.Component {
                   Languages:&nbsp;
                 </b>
                 <span>
-                  JavaScript, C, C#, C++, Java, Python
+                  C, C#, C++, Java, Python, CSS, HTML, JavaScript
                 </span>
               </li>
               <li>
                 <b>
-                  Technologies:&nbsp;
+                  Front-End Technologies:&nbsp;
                 </b>
                 <span>
-                  JQuery,  CSS, HTML, JSON, Backbone, Marionette, Highcharts, D3, Bootstrap, AWS, React, Gulp, Webpack, GIT, Node, Express, Nginx, MongoDB
+                  Backbone, Marionette, JQuery, JSON, Highcharts, D3, Bootstrap, Gulp, Webpack, Git, React
                 </span>
               </li>
               <li>
                 <b>
-                  Operating Systems:&nbsp;
+                  Back-End Technologies:&nbsp;
                 </b>
                 <span>
-                  MacOS, Linux
+                  AWS, Nginx, MongoDB, Express, Node
                 </span>
               </li>
             </ul>
