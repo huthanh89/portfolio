@@ -31,18 +31,18 @@ class Component extends React.Component {
               </li>
               <li>
                 <b>
-                  Front-End Technologies:&nbsp;
+                  Back End Technologies:&nbsp;
                 </b>
                 <span>
-                  Backbone, Marionette, JQuery, JSON, Highcharts, D3, Bootstrap, Gulp, Webpack, Git, React
+                  Aws, Nginx, MongoDB, Express, Node
                 </span>
               </li>
               <li>
                 <b>
-                  Back-End Technologies:&nbsp;
+                  Front End Technologies:&nbsp;
                 </b>
                 <span>
-                  AWS, Nginx, MongoDB, Express, Node
+                  Backbone, Marionette, JQuery, JSON, Highcharts, D3, Bootstrap, Gulp, Webpack, Git, Redux, React
                 </span>
               </li>
             </ul>
