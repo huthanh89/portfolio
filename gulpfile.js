@@ -52,15 +52,24 @@ gulp.task('compress-html', function () {
 
 gulp.task('compress-img', function () {
     return  gulp.src('src/asset/image/*')
-        .pipe(imagemin({
-            interlaced: true,
-            progressive: true,
-            optimizationLevel: 5,
-            svgoPlugins: [{
-                removeViewBox: true
-            }]
-        }))
-        .pipe(gulp.dest('dist/asset'));
+    .pipe(imagemin([
+        imagemin.gifsicle({
+            interlaced: true
+        }),
+        imagemin.jpegtran({
+            progressive: true
+        }),
+        imagemin.optipng({
+            optimizationLevel: 7
+        }),
+        imagemin.svgo({
+            plugins: [
+                {removeViewBox: true},
+                {cleanupIDs: false}
+            ]
+        })
+    ]))
+    .pipe(gulp.dest('dist/asset'));
 });
 
 gulp.task('copy-pdf', function () {
