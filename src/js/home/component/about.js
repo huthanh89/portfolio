@@ -16,14 +16,12 @@ class Component extends React.Component {
         <p className="lead">A software engineer with years of experience developing web applications. Looking to be hired as a full stack javascript engineer.</p>
         <hr className="my-4 bg-light"/>
         <p>Feel free to give me a call or send me an email.</p>
-        <p className="lead">
-          <a className="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#contactModal">
-            <i className="fas fa-user"></i>
-            <span>
-              &nbsp; Contact Info
-            </span> 
-          </a>
-        </p>
+        <button type="button" className="btn btn-lg bg-primary btn-outline-light" data-toggle="modal" data-target="#contactModal">
+          <i className="fas fa-user"></i>
+          <span>
+            &nbsp; Let's connect
+          </span> 
+        </button>
       </div>
     );
   }

@@ -11,9 +11,9 @@ import React from 'react';
 class Layout extends React.Component {
   render() {
     return (
-      <div class='row'>
-        <div class='col-md-12'>
-          <i class="fab fa-linkedin"></i>
+      <div className='row'>
+        <div className='col-md-12'>
+          <i className="fab fa-linkedin"></i>
         </div>
       </div>
     );

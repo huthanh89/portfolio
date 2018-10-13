@@ -6,7 +6,7 @@ import React     from 'react';
 import About     from './component/about'
 import Skill     from './component/skill'
 import Work      from './component/work'
-import Project   from './component/project'
+import Project   from './component/project/layout'
 import Education from './component/education'
 
 //-----------------------------------------------------------------------------//

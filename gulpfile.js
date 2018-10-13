@@ -14,6 +14,7 @@ const pug           = require('gulp-pug');
 const less          = require('gulp-less');
 const htmlmin       = require('gulp-htmlmin');
 const imagemin      = require('gulp-imagemin');
+const open          = require('gulp-open');
 
 //-----------------------------------------------------------------------------//
 // Tasks
@@ -123,6 +124,15 @@ gulp.task('start-server', function () {
 })
 
 
+// Open browser, using default browser.
+
+gulp.task('browser', function (cb) {
+    return gulp.src(__filename)
+    .pipe(open({
+        uri: 'http://localhost:3000'
+    }));
+})
+
 //-----------------------------------------------------------------------------//
 // Main tasks
 //-----------------------------------------------------------------------------//
@@ -150,7 +160,8 @@ gulp.task('default', [
     'build-js', 
     'build-css', 
     'build-html', 
-    'start-server'
+    'start-server',
+    'browser'
 ])
 
 //-----------------------------------------------------------------------------//
