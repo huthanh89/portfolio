@@ -20,7 +20,7 @@ class Component extends React.Component {
             </h4>
           </div>
           <h5 className="card-subtitle mb-2 text-muted">
-            Developer, October 2018 - Present
+            Developer, Oct 2018 - Present
           </h5>
           <a className="btn btn-info mr-2" href="http://cloudresume.net/mathtingz/" target="_blank"> 
             Website
@@ -70,8 +70,10 @@ class Component extends React.Component {
               Front end technology consisted of React-Redux, React-Routing and ReactJS.
             </li>
             <li>
-              Application is mobile and desktop friendly. Can be played on a desktop browser
-              or on mobile by downloading the app in Google's PlayStore.
+              Application is mobile and desktop friendly.
+            </li>
+            <li>
+              Can be played on any desktop web browser or on mobile by downloading the app in Google Play Store.
             </li>
           </ul>
         </div>        

@@ -36,7 +36,6 @@ class Component extends React.Component {
             <MNReward/>
             <div className="hr"></div>
             <WorkoutRank/>
-            <div className="hr"></div>
           </div>
         </div>
       </div>
