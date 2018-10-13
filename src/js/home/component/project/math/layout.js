@@ -64,16 +64,14 @@ class Component extends React.Component {
         <div className='col-lg-6'> 
           <ul className="card-text">
             <li>
-              Built an application to visualize recurring expenses and income.
+              Made a game application to help the user learn basic math.
             </li>
             <li>
-              Technology stack included Node, Redux, and React.
+              Front end technology consisted of React-Redux, React-Routing and ReactJS.
             </li>
             <li>
-              Used HighChart's library for data visualization.
-            </li>
-            <li>
-              Made application responsive to fit on mobile or desktop screen, by using Bootstrap framework. 
+              Application is mobile and desktop friendly. Can be played on a desktop browser
+              or on mobile by downloading the app in Google's PlayStore.
             </li>
           </ul>
         </div>        
