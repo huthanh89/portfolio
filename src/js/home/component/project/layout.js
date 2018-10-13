@@ -19,7 +19,7 @@ class Component extends React.Component {
       <div>
         <div className="card">
           <div className="card-header">
-          <i className="fas fa-project-diagram fa-fw fa-lg"></i>
+          <i className="fas fa-project-diagram fa-fw"></i>
               <span>
                 <b>
                   &nbsp; Projects

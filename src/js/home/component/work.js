@@ -14,7 +14,7 @@ class Component extends React.Component {
       <div>
         <div className="card">
           <div className="card-header">
-            <i className="fas fa-toolbox fa-fw fa-lg"></i>
+            <i className="fas fa-toolbox fa-fw"></i>
               <b>
                 &nbsp;Work Experiences
               </b>
