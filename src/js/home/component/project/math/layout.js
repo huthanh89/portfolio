@@ -22,7 +22,7 @@ class Component extends React.Component {
           <h5 className="card-subtitle mb-2 text-muted">
             Developer, Oct 2018 - Present
           </h5>
-          <a className="btn btn-info mr-2" href="http://cloudresume.net/mathtingz/" target="_blank"> 
+          <a className="btn btn-info mr-2" href="http://bigmonstar.net/" target="_blank"> 
             Website
           </a>              
           <a className="btn btn-secondary mr-2" href="https://github.com/huthanh89/math" target="_blank">
