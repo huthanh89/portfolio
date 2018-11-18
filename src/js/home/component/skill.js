@@ -26,7 +26,7 @@ class Component extends React.Component {
                   Languages:&nbsp;
                 </b>
                 <span>
-                  C, C#, C++, Java, Python, CSS, HTML, JavaScript
+                  Python, CSS, HTML, JavaScript
                 </span>
               </li>
               <li>
