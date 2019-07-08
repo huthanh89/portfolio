@@ -20,6 +20,72 @@ class Component extends React.Component {
                         </b>
                     </div>
                     <div className="card-body">
+                        
+                        
+                        <div className='row'>
+                            <div className='col-md-12'>
+                                <div className="card-title">
+                                    <img className="card-title-logo" src="asset/cisco_logo.png"></img>
+                                    <h4 className="d-inline">
+                                        Cisco Systems
+                                    </h4>
+                                </div>
+                                <h5 className="card-subtitle mb-2 text-muted">
+                                    Software Engineer, Nov 2018 - Present
+                                </h5>
+                                <a className="btn btn-info" href="https://www.netacad.com/" target="_blank"> 
+                                    Website
+                                </a>
+                            </div>
+
+                            <div className='col-lg-6'>
+                                <div id="carouselExampleIndicators" className="carousel carousel-fade profile-work-corousal" data-ride="carousel">
+                                <ol className="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                </ol>
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                    <img className="d-block w-100" src="asset/neptune2.jpg" alt="Third slide"/>
+                                    </div>
+                                    <div className="carousel-item">
+                                    <img className="d-block w- 100" src="asset/neptune1.jpg" alt="Second slide"/>
+                                    </div>
+                                    <div className="carousel-item">
+                                    <img className="d-block w-100" src="asset/neptune3.jpg" alt="Fourth slide"/>
+                                    </div>
+                                    <div className="carousel-item">
+                                    <img className="d-block w- 100" src="asset/neptune4.png" alt="First slide"/>
+                                    </div>
+                                </div>
+                                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
+                                </a>
+                                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
+                                </a>
+                                </div>
+                            </div>
+                            <div className='col-lg-6'>
+                                <ul className="card-text">
+                                    <li className="mb-1">
+                                        Worked primarily on implementing feature requests on a new web based application. Technology stack included AngularJS for frontend and Python on backend.
+                                    </li>
+                                    <li>
+                                        Other work included upgrading libraries in Packet Tracer, a learning software used in Cisco's Netacad Academy.
+                                        As well as creating tasks on Jenkins. For automating Packet Tracer build and testing processes.
+                                    </li>
+                                    <li>
+                                        Used JIRA for an agile software development.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
 
                         <div className='row'>
                             <div className='col-md-12'>
@@ -70,35 +136,34 @@ class Component extends React.Component {
                             </div>
                             <div className='col-lg-6'>
                                 <ul className="card-text">
-                                <li>
-                                    Added new features to the application (ApexFusion) and maintained its source code.
-                                </li>
-                                <li>
-                                    Used CoffeeScript, PUG, LESS, and MarionetteJS for client-side development.
-                                </li>
-                                <li>
-                                    Built new dashboard widgets using data visualization technologies such as Highcharts and D3.
-                                </li>
-                                <li>
-                                    Created step by step wizards to simplify the setup process.
-                                </li>
-                                <li>
-                                    Incorporated a responsive web design approach, to better the mobile experience.
-                                </li>
-                                <li>
-                                    Fixed bugs and improved UI based on user's feedback.
-                                </li>
-                                <li>
-                                    Worked on server-side development with NodeJS, Express, and MongoDB.
-                                </li>
-                                <li>
-                                    Implemented REST APIs for the Apex Fusion client.
-                                </li>
+                                    <li>
+                                        Added new features to the application (ApexFusion) and maintained its source code.
+                                    </li>
+                                    <li>
+                                        Used CoffeeScript, PUG, LESS, and MarionetteJS for client-side development.
+                                    </li>
+                                    <li>
+                                        Built new dashboard widgets using data visualization technologies such as Highcharts and D3.
+                                    </li>
+                                    <li>
+                                        Created step by step wizards to simplify the setup process.
+                                    </li>
+                                    <li>
+                                        Incorporated a responsive web design approach, to better the mobile experience.
+                                    </li>
+                                    <li>
+                                        Fixed bugs and improved UI based on user's feedback.
+                                    </li>
+                                    <li>
+                                        Worked on server-side development with NodeJS, Express, and MongoDB.
+                                    </li>
+                                    <li>
+                                        Implemented REST APIs for the Apex Fusion client.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="hr"></div>
-
                         <div className='row'>
                             <div className='col-md-6'>
                                 <div className="card-title">

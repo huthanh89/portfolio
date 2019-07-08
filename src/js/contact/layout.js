@@ -9,15 +9,15 @@ import React from 'react';
 //-----------------------------------------------------------------------------//
 
 class Layout extends React.Component {
-  render() {
-    return (
-      <div className='row'>
-        <div className='col-md-12'>
-          <i className="fab fa-linkedin"></i>
+    render() {
+        return (
+        <div className='row'>
+            <div className='col-md-12'>
+            <i className="fab fa-linkedin"></i>
+            </div>
         </div>
-      </div>
-    );
-  }
+        );
+    }
 }
 
 //-----------------------------------------------------------------------------//
