@@ -49,10 +49,13 @@ class Component extends React.Component {
                             <div className='col-lg-6'>
                                 <ul className="card-text">
                                     <li className="mb-1">
+                                        Developer on various products that will be used in Cisco Networking Academy.
+                                    </li>
+                                    <li className="mb-1">
                                         Worked primarily on implementing feature requests on a new web based application. Technology stack included AngularJS for frontend and Python for backend.
                                     </li>
                                     <li>
-                                        Upgraded libraries in Packet Tracer, a learning software used in Cisco's Netacad Academy.
+                                        Other work included upgrading libraries in Packet Tracer, a network simulation tool.
                                         As well as creating tasks on Jenkins. For automating Packet Tracer build and testing processes.
                                     </li>
                                     <li>
