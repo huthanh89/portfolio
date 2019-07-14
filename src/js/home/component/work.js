@@ -21,9 +21,8 @@ class Component extends React.Component {
                     </div>
                     <div className="card-body">
                         
-                        
                         <div className='row'>
-                            <div className='col-md-12'>
+                            <div className='col-lg-6'>
                                 <div className="card-title">
                                     <img className="card-title-logo" src="asset/cisco_logo.png"></img>
                                     <h4 className="d-inline">
@@ -33,50 +32,27 @@ class Component extends React.Component {
                                 <h5 className="card-subtitle mb-2 text-muted">
                                     Software Engineer, Nov 2018 - Present
                                 </h5>
-                                <a className="btn btn-info" href="https://www.netacad.com/" target="_blank"> 
-                                    Website
+                                <a className="btn btn-outline-info mr-2" href="https://www.netacad.com/" target="_blank">
+                                    <i className="fas faw fa-link mr-1"></i>
+                                    <span>
+                                        Website
+                                    </span>
+                                </a>
+                                <a className="btn btn-outline-secondary disabled" href="https://www.netacad.com/" target="_blank">
+                                    <i className="fas faw fa-eye-slash mr-1"></i>
+                                    <span>
+                                        Source Code
+                                    </span>
                                 </a>
                             </div>
 
                             <div className='col-lg-6'>
-                                <div id="carouselExampleIndicators" className="carousel carousel-fade profile-work-corousal" data-ride="carousel">
-                                <ol className="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                                </ol>
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                    <img className="d-block w-100" src="asset/neptune2.jpg" alt="Third slide"/>
-                                    </div>
-                                    <div className="carousel-item">
-                                    <img className="d-block w- 100" src="asset/neptune1.jpg" alt="Second slide"/>
-                                    </div>
-                                    <div className="carousel-item">
-                                    <img className="d-block w-100" src="asset/neptune3.jpg" alt="Fourth slide"/>
-                                    </div>
-                                    <div className="carousel-item">
-                                    <img className="d-block w- 100" src="asset/neptune4.png" alt="First slide"/>
-                                    </div>
-                                </div>
-                                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Previous</span>
-                                </a>
-                                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Next</span>
-                                </a>
-                                </div>
-                            </div>
-                            <div className='col-lg-6'>
                                 <ul className="card-text">
                                     <li className="mb-1">
-                                        Worked primarily on implementing feature requests on a new web based application. Technology stack included AngularJS for frontend and Python on backend.
+                                        Worked primarily on implementing feature requests on a new web based application. Technology stack included AngularJS for frontend and Python for backend.
                                     </li>
                                     <li>
-                                        Other work included upgrading libraries in Packet Tracer, a learning software used in Cisco's Netacad Academy.
+                                        Upgraded libraries in Packet Tracer, a learning software used in Cisco's Netacad Academy.
                                         As well as creating tasks on Jenkins. For automating Packet Tracer build and testing processes.
                                     </li>
                                     <li>
@@ -86,6 +62,7 @@ class Component extends React.Component {
                             </div>
                         </div>
 
+                        <hr></hr>
 
                         <div className='row'>
                             <div className='col-md-12'>
@@ -96,10 +73,19 @@ class Component extends React.Component {
                                 </h4>
                                 </div>
                                 <h5 className="card-subtitle mb-2 text-muted">
-                                Software Engineer, Feb 2014 - Mar 2018
+                                    Software Engineer, Feb 2014 - Mar 2018
                                 </h5>
-                                <a className="btn btn-info" href="https://apexfusion.com/" target="_blank"> 
-                                Website
+                                <a className="btn btn-outline-info mr-2" href="https://apexfusion.com/" target="_blank"> 
+                                    <i className="fas faw fa-link mr-1"></i>
+                                    <span>
+                                        Website
+                                    </span>
+                                </a>
+                                <a className="btn btn-outline-secondary disabled" href="https://www.netacad.com/" target="_blank">
+                                    <i className="fas faw fa-eye-slash mr-1"></i>
+                                    <span>
+                                        Source Code
+                                    </span>
                                 </a>
                             </div>
                             <div className='col-lg-6'>
