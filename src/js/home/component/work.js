@@ -59,7 +59,7 @@ class Component extends React.Component {
                                         As well as creating tasks on Jenkins. For automating Packet Tracer build and testing processes.
                                     </li>
                                     <li>
-                                        Used JIRA for an agile software development.
+                                        Used JIRA for agile software development.
                                     </li>
                                 </ul>
                             </div>

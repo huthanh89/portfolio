@@ -26,7 +26,7 @@ class Component extends React.Component {
                         Languages:&nbsp;
                     </b>
                     <span>
-                        Batch Script, Unix/Shell Scripting, Python, CSS, HTML, JavaScript
+                        Unix Shell Scripting, Windows Batch Scripting, Python, CSS, HTML, JavaScript
                     </span>
                 </li>
                 <li>
